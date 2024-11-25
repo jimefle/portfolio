@@ -18,19 +18,19 @@ function Education({theme}){
             </ul>
             <h3 className="pt-8 text-xl font-semibold">Habilidades</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 py-5 place-items-center">
-              <img className="h-16" src="e/js.png" alt="JavaScript" title="JavaScript" />
-              <img className="h-16" src="/image/science.png" alt="React" title="React" />
-              <img className="h-16" src="/image/html-5.png" alt="HTML" title="HTML" />
-              <img className="h-16" src="/image/css3.png" alt="CSS" title="CSS" />
-              <img className="h-16" src="/image/tailwind-css.png" alt="Tailwind CSS" title="Tailwind CSS" />
-              <img className="h-16" src="/image/github.png" alt="GitHub" title="GitHub" />
-              <img className="h-16" src="/image/sql.png" alt="SQL" title="SQL" />
-              <img className="h-16" src="/image/python.png" alt="Python" title="Python" />
-              <img className="h-16" src="/image/elasticsearch.png" alt="Elasticsearch" title="Elasticsearch" />
-              <img className="h-16" src="/image/mongo-db.png" alt="MongoDB" title="MongoDB" />
-              <img className="h-16" src="/image/nmap.png" alt="Nmap" title="Nmap" />
-              <img className="h-16" src="/image/burp-suite.png" alt="Burp Suite" title="Burp Suite" />
-              <img className="h-16" src="/image/node-js.png" alt="Node.js" title="Node.js" />
+              <img className="h-16" src="/js.png" alt="JavaScript" title="JavaScript" />
+              <img className="h-16" src="/science.png" alt="React" title="React" />
+              <img className="h-16" src="/html-5.png" alt="HTML" title="HTML" />
+              <img className="h-16" src="/css3.png" alt="CSS" title="CSS" />
+              <img className="h-16" src="/tailwind-css.png" alt="Tailwind CSS" title="Tailwind CSS" />
+              <img className="h-16" src="/github.png" alt="GitHub" title="GitHub" />
+              <img className="h-16" src="/sql.png" alt="SQL" title="SQL" />
+              <img className="h-16" src="/python.png" alt="Python" title="Python" />
+              <img className="h-16" src="/elasticsearch.png" alt="Elasticsearch" title="Elasticsearch" />
+              <img className="h-16" src="/mongo-db.png" alt="MongoDB" title="MongoDB" />
+              <img className="h-16" src="/nmap.png" alt="Nmap" title="Nmap" />
+              <img className="h-16" src="/burp-suite.png" alt="Burp Suite" title="Burp Suite" />
+              <img className="h-16" src="/node-js.png" alt="Node.js" title="Node.js" />
             </div>
           </section>
     )
