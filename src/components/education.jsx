@@ -18,7 +18,7 @@ function Education({theme}){
             </ul>
             <h3 className="pt-8 text-xl font-semibold">Habilidades</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 py-5 place-items-center">
-              <img className="h-16" src="/js.png" alt="JavaScript" title="JavaScript" />
+              <img className="h-16" src="./js.png" alt="JavaScript" title="JavaScript" />
               <img className="h-16" src="/science.png" alt="React" title="React" />
               <img className="h-16" src="/html-5.png" alt="HTML" title="HTML" />
               <img className="h-16" src="/css3.png" alt="CSS" title="CSS" />
