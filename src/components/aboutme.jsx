@@ -3,7 +3,7 @@ function Aboutme() {
         <section className="mt-20 py-6">
             <div className="flex items-center pb-6">
               <i className="fa-solid fa-star"></i>
-              <h2 className="px-2 text-2xl font-bold">Sobre mí</h2>
+              <h2 className="px-2 text-2xl font-bold" id='aboutme'>Sobre mí</h2>
             </div>
             <article className="flex gap-5">
               <img src=".\src\image\photo-profile.jpg" alt="Foto de perfil" className="rounded-full h-48 object-contain w-48" />
