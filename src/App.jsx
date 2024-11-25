@@ -18,16 +18,16 @@ function App() {
 
 
   return (
-    <html>
+    <html className='scroll-smooth'>
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></link>
       </head>
-      <body>
-        <header>
-          <a href="#proyects" className='header-button'>Proyectos y cursos</a>
-          <a href="#education" className='header-button'>Educación</a>
-          <a href="#aboutme" className='header-button'>Sobre mí</a>
-          <a href="#contacto" className='header-button'>Contacto</a>
+      <body className='bg-zinc-900 text-white text-lg p-20 relative place-items-center'>
+        <header className='fixed flex items-center bg-transparent rounded-3xl p-1 backdrop-blur-sm'>
+          <a href="#proyects" className='rounded-lg border border-transparent px-4 py-2 text-lg font-medium bg-transparent cursor-pointer hover:text-violet-400 transition-colors'>Proyectos y cursos</a>
+          <a href="#education" className='rounded-lg border border-transparent px-4 py-2 text-lg font-medium bg-transparent cursor-pointer hover:text-violet-400 transition-colors'>Educación</a>
+          <a href="#aboutme" className='rounded-lg border border-transparent px-4 py-2 text-lg font-medium bg-transparent cursor-pointer hover:text-violet-400 transition-colors'>Sobre mí</a>
+          <a href="#contacto" className='rounded-lg border border-transparent px-4 py-2 text-lg font-medium bg-transparent cursor-pointer hover:text-violet-400 transition-colors'>Contacto</a>
           <div className="toggle-btn" id="a-toggle-btn">
             <input type="checkbox" checked={theme === 'dark'}onChange={toggleTheme}/>
             <span></span>
