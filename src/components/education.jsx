@@ -13,11 +13,12 @@ function Education({theme}){
             <h4 className="pl-5"> Bachillerato en economía y administración</h4>
             <h3 className="pt-8 text-xl font-semibold">Idiomas</h3>
             <ul>
+              <li className="pl-5"> Español (Nativo)</li>
               <li className="pl-5"> Inglés | Cambridge First Certificate (B2)</li>
               <li className="pl-5"> Italiano | ADA (B1)</li>
             </ul>
             <h3 className="pt-8 text-xl font-semibold">Habilidades</h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 py-5 place-items-center">
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-6 py-5 place-items-center">
               <img className="h-16" src="image/js.png" alt="JavaScript" title="JavaScript" />
               <img className="h-16" src="image/science.png" alt="React" title="React" />
               <img className="h-16" src="image/html-5.png" alt="HTML" title="HTML" />
