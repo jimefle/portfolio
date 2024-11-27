@@ -19,10 +19,10 @@ function Hero(){
         <section className="mt-20 py-6">
             <h1 className="text-4xl font-bold opacity-50">Hola!</h1>
             <h1 className="text-5xl font-bold pt-1">Soy Jimena Flecha</h1>
-            <p className="pt-6">Estudiante de 5to año de <strong>Ingeniería en Sistemas de Información</strong>. </p>
+            <p className="text-xl pt-6"><strong>Futura Ingeniera en Sistemas de Información</strong></p>
             <p className="py-2"> Mi objetivo es seguir aprendiendo y creciendo profesionalmente, por lo que estoy abierta a
                 nuevos desafíos que me permitan aplicar mis conocimientos teóricos y prácticos y ampliar mis
-                habilidades tanto técnicas como interpersonales.</p>
+                habilidades.</p>
             <div class="flex items-center space-x-4 py-4">
               <input 
                 type="text" 
@@ -33,7 +33,7 @@ function Hero(){
               <a 
                 href={`mailto:${mail}`}
                 class="px-4 py-2 bg-violet-500 text-white rounded-lg shadow hover:bg-violet-900 transition">
-                <i className="fa-regular fa-envelope"></i>
+                <i className="fa-regular fa-paper-plane"></i>
                 </a>
               <button 
                 onClick={() => copyToClipboard(mail)}
@@ -49,7 +49,7 @@ function Hero(){
             <div className="cursor-pointer flex items-start justify-start py-3">
             <a 
               href="/ruta-a-tu-cv.pdf" download="CV_Jimena.pdf" 
-              className="mr-2 px-4 py-2 text-m text-violet-400 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-violet-500 hover:border-transparent duration-700 ease-in-out">
+              className="mr-2 px-4 py-2 text-m text-violet-400 dark:text-violet-500 font-semibold rounded-full border border-purple-200 dark:border-violet-500 hover:text-white dark:hover:text-white hover:bg-violet-500 hover:border-transparent duration-700 ease-in-out">
               Descargar CV</a>
             </div>
           </section>

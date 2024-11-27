@@ -28,8 +28,8 @@ function App() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></link>
       </head>
       <body className='bg-zinc-900 dark:bg-white dark:text-black text-white text-lg pt-0 relative place-items-center'>
-      <header className="mt-0 flex items-center justify-center space-x-4 bg-inherit px-3 py-2 overflow-x-auto whitespace-nowrap w-full bg-gradient-to-b from-violet-950 from-30% dark:from-violet-200">
-          <a href="#proyects" className="rounded-lg border border-transparent p-1 text-sm font-medium bg-transparent cursor-pointer hover:text-violet-200 transition-colors">
+      <header className="fixed mt-0 flex items-center justify-end space-x-4 bg-inherit px-3 py-2 overflow-x-auto whitespace-nowrap w-full z-50">
+        {/*  <a href="#proyects" className="rounded-lg border border-transparent p-1 text-sm font-medium bg-transparent cursor-pointer hover:text-violet-200 transition-colors">
             Proyectos y cursos
           </a>
           <a href="#education" className="rounded-lg border border-transparent p-1 text-sm font-medium bg-transparent cursor-pointer hover:text-violet-200 transition-colors">
@@ -37,7 +37,7 @@ function App() {
           </a>
           <a href="#aboutme" className="rounded-lg border border-transparent p-1 text-sm font-medium bg-transparent cursor-pointer hover:text-violet-200 transition-colors">
             Sobre mí
-          </a>
+          </a> */}
           <a href="mailto:flechaajimena@gmail.com" className="rounded-lg border border-transparent p-1 text-sm font-medium bg-transparent cursor-pointer hover:text-violet-200 transition-colors">
             Contacto
           </a>
@@ -50,7 +50,7 @@ function App() {
             </button>
           </div>
         </header>
-        <main className='p-20 pt-10 sm:px-8 md:px-16 lg:px-40 xl:px-50'>
+        <main className='p-20 pt-10 sm:px-8 md:px-16 lg:px-48 xl:px-96'>
           <Hero></Hero>
           <Proyects></Proyects>
           <Education></Education>

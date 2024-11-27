@@ -7,17 +7,16 @@ function Aboutme() {
             </div>
             <article className="flex flex-col">
               <div>
-                <p className="pt-3">Siempre estoy buscando oportunidades para aprender cosas nuevas y mantenerme al tanto de las 
-                  últimas tendencias de la industria. Paralelamente a mis estudios, estoy activamente involucrada en programas 
-                  de I+D. </p>
-                  <p className="pt-3">Por un lado, estoy trabajando con un equipo para desarrollar simulaciones virtuales que apoyen los 
-                    laboratorios de Química, colaborando con el personal académico para diseñar simulaciones que mejoren la 
-                    experiencia de aprendizaje de los estudiantes en los cursos de Química General. </p>
-                  <p className="pt-3">Por otro lado, estoy realizando investigaciones en Ciberseguridad, enfocándome en estudiar diversas amenazas
-                    de seguridad y técnicas de mitigación. Como parte de este proyecto, he completado cursos de ciberseguridad de 
-                    Fortinet para fortalecer aún más mis conocimientos y habilidades en este campo en rápida evolución. </p>
-                  <p className="py-3">Estas experiencias me permiten aplicar mis conocimientos técnicos mientras contribuyo a la innovación
-                    educativa y a la investigación en ciberseguridad.</p>
+                <p className="pt-3">Estoy en constante búsqueda de desafíos y oportunidades para seguir creciendo, con especial 
+                  interés en el desarrollo frontend, donde distrufo crear interfaces atractivas, funcionales y responsive siempre teniendo en cuenta la
+                   experiencia de usuario, el diseño de sistemas y la integración de tecnologías emergentes. Además, me apasiona
+                   el aprendizaje continuo; siempre estoy explorando nuevas herramientas, frameworks y tendencias para expandir mis conocimientos
+                    y aplicar soluciones innovadoras. </p>
+                  <p className="pt-3">Como estudiante de Ingeniería en Sistemas de Información, participo activamente en programas de Investigación
+                     y Desarrollo (I+D), donde he tenido la oportunidad de explorar temas que van desde la ciberseguridad hasta la innovación educativa.
+                      Estas experiencias me han llevado a participar en congresos nacionales y competencias, enriqueciendo mi perspectiva profesional y
+                       mi compromiso con la tecnología. </p>
+                  <p className="pt-3 pb-8">Si queres saber más sobre mis proyectos y logros, te invito a visitar mi LinkedIn!</p>
               </div>
             </article>
             <a 
