@@ -25,7 +25,7 @@ function Aboutme() {
                 <i className="fa-brands fa-linkedin"></i>
               </a>
             <a 
-                href='https://www.linkedin.com/in/jimena-flecha-alfaro-58b159289' target="_blank" 
+                href='https://github.com/jimefle' target="_blank" 
                 className='hover:text-violet-400 text-4xl mx-3'>
                 <i className="fa-brands fa-github"></i>
               </a>

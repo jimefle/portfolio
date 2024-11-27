@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Card ({ title, images, description, technologies=[], projectUrl}) {
   return(
-    <div className="h-auto bg-zinc-800 dark:bg-violet-100 m-3 shadow-[0_2px_10px_rgba(255,255,255,0.2)] rounded-lg overflow-hidden transform transition-all duration-300">
+    <div className="h-auto bg-zinc-800 dark:bg-violet-100 m-3 pb-2 shadow-[0_2px_10px_rgba(255,255,255,0.2)] rounded-lg overflow-hidden transform transition-all duration-300">
       <h3 className="text-2xl font-bold text-gray-100 dark:text-gray-900 p-4">
         {title}
       </h3>
@@ -14,7 +14,7 @@ function Card ({ title, images, description, technologies=[], projectUrl}) {
               {technologies.map((tech, index) => (
                 <li
                   key={index}
-                  className="bg-gray-700 dark:bg-gray-300 text-gray-100 dark:text-gray-900 px-2 py-1 rounded-lg"
+                  className="bg-violet-700 dark:bg-violet-300 text-gray-100 dark:text-gray-900 px-2 py-1 rounded-lg"
                   >
                   {tech}
                 </li>

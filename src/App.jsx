@@ -50,7 +50,7 @@ function App() {
             </button>
           </div>
         </header>
-        <main className='p-20 pt-10 sm:px-8 md:px-16 lg:px-48 xl:px-96'>
+        <main className='p-20 pt-10 sm:px-8 md:px-16 lg:px-48 xl:px-80'>
           <Hero></Hero>
           <Proyects></Proyects>
           <Education></Education>
