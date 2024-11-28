@@ -17,29 +17,29 @@ function Hero(){
   };
     return(
         <section className="mt-20 py-6">
-            <h1 className="text-4xl font-bold opacity-50">Hola!</h1>
-            <h1 className="text-5xl font-bold pt-1">Soy Jimena Flecha</h1>
+            <h1 className="text-3xl  sm:text-4xl font-bold opacity-50">Hola!</h1>
+            <h1 className="text-4xl sm:text-5xl font-bold pt-1">Soy Jimena Flecha</h1>
             <p className="text-xl pt-6"><strong>Futura Ingeniera en Sistemas de Información</strong></p>
             <p className="py-2"> Mi objetivo es seguir aprendiendo y creciendo profesionalmente, por lo que estoy abierta a
                 nuevos desafíos que me permitan aplicar mis conocimientos teóricos y prácticos y ampliar mis
                 habilidades.</p>
-            <div class="flex items-center space-x-4 py-4">
+            <div class="flex flex-wrap sm:flex-nowrap items-center py-4">
               <input 
                 type="text" 
                 value={mail} 
                 readonly 
-                class="w-full px-3 py-2 border dark:border-black rounded-lg bg-transparent text-white dark:text-black focus:outline-none focus:ring-2 focus:ring-violet-500"
+                class="w-72 px-3 py-2 border mr-4 my-2 dark:border-black rounded-lg bg-transparent text-white dark:text-black focus:outline-none focus:ring-2 focus:ring-violet-500"
               />
-              <a 
-                href={`mailto:${mail}`}
-                class="px-4 py-2 bg-violet-500 text-white rounded-lg shadow hover:bg-violet-900 transition">
-                <i className="fa-regular fa-paper-plane"></i>
-                </a>
-              <button 
-                onClick={() => copyToClipboard(mail)}
-                class="px-4 py-2 bg-violet-500 text-white rounded-lg shadow hover:bg-violet-900 transition">
-                <i className="fa-regular fa-copy"></i>
-              </button>
+                <a 
+                  href={`mailto:${mail}`}
+                  class="px-4 py-2 mr-2 bg-violet-500 text-white rounded-lg shadow hover:bg-violet-900 transition">
+                  <i className="fa-regular fa-paper-plane"></i>
+                  </a>
+                <button 
+                  onClick={() => copyToClipboard(mail)}
+                  class="px-4 py-2 bg-violet-500 text-white rounded-lg shadow hover:bg-violet-900 transition">
+                  <i className="fa-regular fa-copy"></i>
+                </button>
               {notif && (
                 <div className="absolute top-50 left-1/2 transform -translate-x-1/2 mt-6 px-4 py-2 bg-gray-500 text-white text-sm rounded-lg shadow-lg transition-opacity duration-500 ease-in-out">
                   {notif}

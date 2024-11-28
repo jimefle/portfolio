@@ -60,7 +60,7 @@ function Card ({ title, images, description, technologies=[], projectUrl}) {
             <div className="hover:font-semibold hover:scale-100 duration-300 ease-in-out ">
               <a href={projectUrl} target="_blank" rel="noopener noreferrer" 
                 className="m-4 text-inherit">
-                Ver proyecto
+                Ver página
                 <i className="fa-solid fa-angle-right px-2 "></i>
               </a>
             </div>

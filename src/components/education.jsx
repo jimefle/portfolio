@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 function Education({theme}){
     return(
-        <section className="mt-20 py-6">
+        <section className="mt-10 py-6">
             <div className="flex items-center">
               <i className="fa-solid fa-book"></i>
               <h2 className="px-2 text-2xl font-bold" id='education'>Educación</h2>
@@ -20,9 +20,9 @@ function Education({theme}){
             <h3 className="pt-8 text-xl font-semibold">Habilidades</h3>
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-6 py-5 place-items-center">
               <img className="h-16" src="image/js.png" alt="JavaScript" title="JavaScript" />
-              <img className="h-16" src="image/science.png" alt="React" title="React" />
               <img className="h-16" src="image/html-5.png" alt="HTML" title="HTML" />
               <img className="h-16" src="image/css3.png" alt="CSS" title="CSS" />
+              <img className="h-16" src="image/science.png" alt="React" title="React" />
               <img className="h-16" src="image/tailwind-css.png" alt="Tailwind CSS" title="Tailwind CSS" />
               <img className="h-16" src="image/github.png" alt="GitHub" title="GitHub" />
               <img className="h-16" src="image/sql.png" alt="SQL" title="SQL" />
