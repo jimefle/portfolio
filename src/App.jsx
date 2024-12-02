@@ -38,13 +38,15 @@ function App() {
           <a href="#aboutme" className="rounded-lg border border-transparent p-1 text-sm font-medium bg-transparent cursor-pointer hover:text-violet-200 transition-colors">
             Sobre mí
           </a> */}
-          <a href="mailto:flechaajimena@gmail.com" className="rounded-lg border border-transparent p-1 text-sm font-medium bg-transparent cursor-pointer hover:text-violet-200 transition-colors">
+          <a href="mailto:flechaajimena@gmail.com" className="rounded-lg border border-transparent p-1 text-sm font-medium bg-transparent cursor-pointer hover:text-violet-200 transition-colors"
+          title='Contactame!'>
             Contacto
           </a>
           <div className="toggle-btn">
             <button 
               onClick={toggleDarkMode} 
-              className="relative w-14 h-6 mt-1 bg-gray-300 dark:bg-zinc-500 rounded-full shadow-inner focus:outline-none transition-colors ">
+              className="relative w-14 h-6 mt-1 bg-gray-300 dark:bg-zinc-500 rounded-full shadow-inner focus:outline-none transition-colors "
+              title='Dark/Light Mode'>
               <span className={`absolute left-1 top-1 w-6 h-4 bg-white rounded-full shadow-md transform transition-transform 
                 ${darkMode ? 'translate-x-6' : ''}`}></span>
             </button>

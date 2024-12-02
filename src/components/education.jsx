@@ -31,7 +31,6 @@ function Education({theme}){
               <img className="h-16" src="image/mongo-db.png" alt="MongoDB" title="MongoDB" />
               <img className="h-16" src="image/nmap.png" alt="Nmap" title="Nmap" />
               <img className="h-16" src="image/burp-suite.png" alt="Burp Suite" title="Burp Suite" />
-              <img className="h-16" src="image/node-js.png" alt="Node.js" title="Node.js" />
             </div>
           </section>
     )

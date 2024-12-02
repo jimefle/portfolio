@@ -11,7 +11,7 @@ function Proyects(){
                 title="Página web - Alphascope" 
                 images={["/image/alpha-1.png","/image/alpha-2.png"]} 
                 description="Desarrollo de la página web para la empresa Alphascope."
-                technologies={["React", "CSS","Vite"]}
+                technologies={["React","HTML", "CSS","Vite"]}
                 projectUrl="https://alphascope.com.ar/"
               />
               <Card 

@@ -32,13 +32,14 @@ function Hero(){
               />
                 <a 
                   href={`mailto:${mail}`}
-                  class="px-4 py-2 mr-2 bg-violet-500 text-white rounded-lg shadow hover:bg-violet-900 transition">
+                  class="px-4 py-2 mr-2 bg-violet-500 text-white rounded-lg shadow hover:bg-violet-900 transition"
+                  title="Enviar mail">
                   <i className="fa-regular fa-paper-plane"></i>
                   </a>
                 <button 
                   onClick={() => copyToClipboard(mail)}
                   class="px-4 py-2 bg-violet-500 text-white rounded-lg shadow hover:bg-violet-900 transition">
-                  <i className="fa-regular fa-copy"></i>
+                  <i className="fa-regular fa-copy" title="Copiar mail"></i>
                 </button>
               {notif && (
                 <div className="absolute top-50 left-1/2 transform -translate-x-1/2 mt-6 px-4 py-2 bg-gray-500 text-white text-sm rounded-lg shadow-lg transition-opacity duration-500 ease-in-out">
@@ -49,7 +50,8 @@ function Hero(){
             <div className="cursor-pointer flex items-start justify-start py-3">
             <a 
               href="image/CV_JimenaFlechaAlfaro.pdf" download="CV_JimenaFlechaAlfaro.pdf" 
-              className="mr-2 px-4 py-2 text-m text-violet-400 dark:text-violet-500 font-semibold rounded-full border border-purple-200 dark:border-violet-500 hover:text-white dark:hover:text-white hover:bg-violet-500 hover:border-transparent duration-700 ease-in-out">
+              className="mr-2 px-4 py-2 text-m text-violet-400 dark:text-violet-500 font-semibold rounded-full border border-purple-200 dark:border-violet-500 hover:text-white dark:hover:text-white hover:bg-violet-500 hover:border-transparent duration-700 ease-in-out"
+              title="Descargar pdf :)">
               Descargar CV</a>
             </div>
           </section>
