@@ -48,7 +48,7 @@ function Hero(){
             </div>
             <div className="cursor-pointer flex items-start justify-start py-3">
             <a 
-              href="/ruta-a-tu-cv.pdf" download="CV_Jimena.pdf" 
+              href="image/CV_JimenaFlechaAlfaro.pdf" download="CV_JimenaFlechaAlfaro.pdf" 
               className="mr-2 px-4 py-2 text-m text-violet-400 dark:text-violet-500 font-semibold rounded-full border border-purple-200 dark:border-violet-500 hover:text-white dark:hover:text-white hover:bg-violet-500 hover:border-transparent duration-700 ease-in-out">
               Descargar CV</a>
             </div>
